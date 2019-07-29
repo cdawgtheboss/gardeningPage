@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+/*    color: rgb(255, 255, 255);
+    background-color: rgb(29, 27, 39);  */
+    border: solid red 5px;
+} 
+
+#mainContainer{
+    width: 500px;
+    border: solid black 5px;
+}
+
+#appTile{
+    width: 275px;
+    border: solid purple 5px;
+}
+
+#backArrow{
+    margin: 25px;
+    border: solid blue 5px;
+}
+
+#topText{
+    padding: 25px;
+}
+
+#mainButtonTiles{
+    margin: 0 auto;
+    border: solid pink 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 27, 39);
+}
+
+#hydration{
+    border-left-color: rgb(28, 170, 83);
+    border-left-style: solid;
+    border-left-width: 4px;
+    height: 100px;
+    width: 125px;
+    padding-top: 25px;
+}
+
+#confirmButton{
+    background-color: rgb(28, 170, 83);
+    color: rgb(255, 255, 255);
+
+}
