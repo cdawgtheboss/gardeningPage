@@ -1,34 +1,31 @@
-.button{
-    border-left-color: rgb(28, 170, 83);
-    border-left-style: solid;
-    border-left-width: 4px;
-    height: 100px;
-    width: 125px;
-    padding-top: 25px;
-}
-
 body{
     margin: 0 auto;
-/*    color: rgb(255, 255, 255);
-    background-color: rgb(29, 27, 39);  */
     border: solid red 5px;
-    color: rgb(255, 255, 255);
+    color: white;
 } 
+
+.tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    flex: 1 0 20%;
+    border: 5px solid #32303b;
+    border-left: 5px solid #1baa53;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px;
+}
 
 #mainContainer{
     width: 500px;
-    border: solid black 5px;
     background-color: rgb(29, 27, 39);
-
-}
-
-#appTile{
-    width: 275px;
-    border: solid purple 5px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #backArrow{
-    margin: 25px;
     border: solid blue 5px;
 }
 
