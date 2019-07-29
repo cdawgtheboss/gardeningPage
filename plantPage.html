@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="https://kit.fontawesome.com/f8a486b442.js"></script>
-        <link href="app.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-            <div id="mainContainer">
-            <div id="appTile">
-                <header>
-                    <div id="backArrow">
-                        <i class="fas fa-arrow-left"></i> <!--back arrow-->
-                    </div>
-                    <div id="topText">
-                        <h1>Actions</h1>
-                        <h4>Recommended</h3>            
-                    </div>
-                </header>
-                <main>
-                    <div id="mainButtonTiles">
-                        <div id="hydration">
-                            <span> Put 1 glass of water </span>
-                        </div>
-                        <div id="nutrition">
-                            <span>Put 50 gm of fertilizer</span>
-                        </div>
-                        <div id="lighting">
-                            <span>Increase the light</span>
-                        </div>
-                        <div id="powerSource">
-                            <span>Plug in a charger</span>
-                        </div>
-                    </div>    
-                </main>
-                <footer>
-                    <div id="confirmButton">
-                        <span>Confirm Actions</span>
-                    </div>
-                    <div id="otherButton">
-                        <span>Other Actions <i class="fas fa-long-arrow-alt-down"></i><!--down arrow--> </span>
-                    </div>
-                </footer>
+<head>
+    <script src="https://kit.fontawesome.com/f8a486b442.js"></script>
+    <link href="app.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="mainContainer">
+        <header>
+            <div id="backArrow">
+                <i class="fas fa-arrow-left"></i> <!--back arrow-->
             </div>
-        </div>    
-    </body>
+            <div id="topText">
+                <h1>Actions</h1>
+                <h4>Recommended</h3>            
+            </div>
+        </header>
+        <main>
+            <div class="tiles-container">
+                <div class="tile">
+                    <span> Put 1 glass of water </span>
+                </div>
+                <div class="tile">
+                    <span>Put 50 gm of fertilizer</span>
+                </div>
+                <div class="tile">
+                    <span>Increase the light</span>
+                </div>
+                <div class="tile">
+                    <span>Plug in a charger</span>
+                </div>
+            </div>    
+        </main>
+        <footer>
+            <div id="confirmButton">
+                <span>Confirm Actions</span>
+            </div>
+            <div id="otherButton">
+                <span>Other Actions <i class="fas fa-long-arrow-alt-down"></i><!--down arrow--> </span>
+            </div>
+        </footer>
+    </div>    
+</body>
 </html>
