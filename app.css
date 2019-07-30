@@ -31,15 +31,16 @@ body{
 }
 
 #backArrow{
-    border: solid blue 5px;
     padding-top: 25px;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-bottom: 25px;
 }
 
+#backArrow i{
+    font-size: 25px;
+}
+
 #topText h1{
-    /*padding: 50px; */
-    border: solid white 5px;
     padding-left: 25px;
 }
 
@@ -70,4 +71,7 @@ body{
 #otherButton{
     color: rgb(255, 255, 255);
     background-color:  rgb(29,27,39);
+    border: solid blue 5px;
+    padding: 45px;
+    justify-items: right;
 }
