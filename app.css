@@ -18,9 +18,7 @@ body{
     border-left: 5px solid #1baa53;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 35px;
-    height: 95px;
-    width: 125px;
+    padding: 15px;
     margin: 5px; 
 }
 
@@ -52,7 +50,7 @@ body{
 
 #mainButtonTiles{
     margin: 0 auto;
-    border: solid pink 5px;
+    border: solid rgb(192, 40, 66) 5px;
     color: rgb(255, 255, 255);
     background-color: rgb(29, 27, 39);
 }
@@ -64,15 +62,38 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-left: 75px;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 30px;
     padding-left: 25px;
     height: 50px;
+    border: solid blueviolet 3px;
+}
+
+#confirmButton span{
+    display: flex;
+    border: solid gray 3px;
+    justify-content: space-around;
+}
+
+#confirmButton i{
+    text-align: right;
+    border: solid orange 3px;
 }
 
 #otherButton{
     color: rgb(255, 255, 255);
     background-color:  rgb(29,27,39);
     border: solid blue 5px;
-    padding: 45px;
-    justify-items: right;
+    margin-left: 75px;
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-left: 25px;
+    height: 50px;
+}
+
+#otherButton span{
+    display: flex;
+    justify-content: space-around;
+    margin-right: ;
+    border: solid gold 3px;
 }
