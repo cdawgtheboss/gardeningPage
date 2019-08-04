@@ -1,6 +1,5 @@
 body{
     margin: 0 auto;
-    border: solid red 5px;
     color: white;
 } 
 
@@ -41,16 +40,19 @@ body{
 
 #topText h1{
     padding-left: 25px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 100;
 }
 
 #topText h4 {
     padding-left: 25px;
     margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 #mainButtonTiles{
     margin: 0 auto;
-    border: solid rgb(192, 40, 66) 5px;
     color: rgb(255, 255, 255);
     background-color: rgb(29, 27, 39);
 }
@@ -62,38 +64,36 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-left: 75px;
-    margin-top: 25px;
-    padding-top: 30px;
+    margin-top: 25px; 
+    padding-top: 25px;
     padding-left: 25px;
     height: 50px;
-    border: solid blueviolet 3px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#confirmButton span{
-    display: flex;
-    border: solid gray 3px;
-    justify-content: space-around;
-}
+
 
 #confirmButton i{
     text-align: right;
-    border: solid orange 3px;
+    font-size: 25px;
+    padding-right: 10px;
 }
 
 #otherButton{
     color: rgb(255, 255, 255);
     background-color:  rgb(29,27,39);
-    border: solid blue 5px;
     margin-left: 75px;
     margin-top: 25px;
     padding-top: 30px;
     padding-left: 25px;
     height: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #otherButton span{
     display: flex;
     justify-content: space-around;
-    margin-right: ;
-    border: solid gold 3px;
+    margin-left: 75px;
 }
