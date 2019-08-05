@@ -19,6 +19,11 @@ body{
     border-bottom-right-radius: 3px;
     padding: 18px;
     margin: 5px; 
+    font-family: sans-serif;
+}
+
+.tile i{
+    color: rgb(88, 86, 101);
 }
 
 #mainContainer{
@@ -29,9 +34,9 @@ body{
 }
 
 #backArrow{
-    padding-top: 25px;
+    padding-top: 25px; 
     padding-left: 25px;
-    padding-bottom: 25px;
+  /*  padding-bottom: 15px; */
 }
 
 #backArrow i{
@@ -61,8 +66,8 @@ body{
 #confirmButton{
     background-color: rgb(28, 170, 83);
     color: rgb(255, 255, 255);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     margin-left: 75px;
     margin-top: 25px; 
     padding-top: 25px;
@@ -96,4 +101,9 @@ body{
     display: flex;
     justify-content: space-around;
     margin-left: 75px;
+
+}
+
+#otherButton i{
+    color: rgb(88, 86, 103);
 }
