@@ -24,6 +24,7 @@ body{
 
 .tile i{
     color: rgb(88, 86, 101);
+    margin-bottom: 10px;
 }
 
 #mainContainer{
