@@ -81,6 +81,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-content: middle;
+    font-family: sans-serif;
 }
 
 
@@ -100,6 +101,7 @@ footer{
     height: 50px;
     display: flex;
     justify-content: space-around;
+    font-family: sans-serif;
 }
 
 #otherButton span{
